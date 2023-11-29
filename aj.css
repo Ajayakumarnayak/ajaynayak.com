@@ -1,0 +1,197 @@
+.logo{
+    width:1250px;
+    height: 60px;
+    display: inline-flex;
+    /* border: 0.1px solid white; */
+    background-color: transparent;
+
+    /* justify-content: space-between; */
+}
+nav{ 
+
+    padding-left: 500px;
+    width:600px;
+    justify-content: space-between;
+
+}
+ul{
+    list-style-type:none;
+    justify-content: space-between;
+    padding: 2px 3px;
+}
+li{
+
+    display: inline;
+    justify-content: space-between;
+    padding:5px 5px;
+
+    
+}
+li a{
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-items: center;
+    color: white;
+}
+li a:hover{
+    color: orange;
+}
+
+.name{
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(247, 74, 1);
+    text-shadow: -2px -2px white;
+    padding: 5px 20px;
+}
+body{
+    background-image: url('Ajay1.jpg');
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+}
+.intro{
+    width: 600px;
+    height:50px;
+    padding: 180px 50px;
+    
+}
+.intro1{
+    display: inline-flex;
+    color: white;
+    font-size: 20px;
+width:250px;
+    height:40px;
+
+}
+#aj{
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(247, 74, 1);
+    text-shadow: -2px -2px white;
+    /* margin-bottom: 20px; */
+}
+.intro3{
+    color: white;
+    font-size: 15px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.exploreme{
+    width: 1200px;
+    /* height: 200px;  */
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    /* padding: 5px 5px; */
+}
+#me{
+    display: flex;
+    padding: 5px 5px;
+}
+#me li{
+    padding:10px 10px;
+    background-color: transparent;
+    display: flex;
+}
+#me img{
+    width: 20px;
+    height: 20px;
+    background-color: chocolate;
+    border-radius: 10px;
+    padding: 10px 10px;
+    justify-content: space-between;
+    
+}
+span{
+    
+padding: 10px 5px;
+    border-radius: 10px;
+}
+.am{
+    color: white;
+    text-align: center;
+    background-color: chocolate;
+    width:300px;
+    justify-content: center;
+    padding: 20px 20px;
+    margin: 0px 200px;
+    border-radius: 20px;
+
+}
+section{
+    display: none;
+}
+#section5{
+    display:block;
+}
+section:target{
+    display: block;
+}
+#section5::after{
+    display: none;
+}
+.skill{
+    width: 1200px;
+    /* height: 300px; */
+    display: inline-flex;
+}
+.skill li{
+    display: inline-flex;
+    border: 2px solid black;
+    width: 100px;
+}
+#html{
+    background: rgb(249, 60, 2);
+    background: linear-gradient(90deg, rgb(231, 70, 7) 81%, rgb(189, 180, 180) 81%);
+   
+border: 1px solid white;
+border-radius: 10px;
+text-align: center;
+}
+#css{
+    background: rgb(200,231,7);
+    background: linear-gradient(90deg, rgb(244, 63, 3) 81%, rgb(189, 189, 189) 81%);
+border: 1px solid white;
+border-radius: 10px;
+text-align: center;
+
+}
+#al{
+    background: rgb(244, 96, 4);
+    background: linear-gradient(90deg, rgb(238, 94, 5) 55%, rgb(189, 184, 184) 55%);
+border: 1px solid white;
+border-radius: 10px;
+text-align: center;
+
+}
+#sql{
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    background: rgb(231, 127, 9);
+    background: linear-gradient(90deg, rgb(231, 97, 7) 82%, rgb(186, 183, 183) 82%);
+}
+#java{
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    background: rgb(232, 110, 9);
+background: linear-gradient(90deg, rgb(234, 94, 6) 82%, rgb(188, 185, 185) 82%);
+}
+#py{
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    background: rgb(240, 116, 8);
+background: linear-gradient(90deg, rgb(247, 121, 3) 61%, rgb(190, 187, 187) 61%);
+}
+.photo{
+    width: 150px;
+    height: 150px;
+    border: 2px double rgb(220, 72, 8);
+    align-items: center;
+
+}
